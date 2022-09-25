@@ -1,0 +1,6 @@
+<div>
+    <app-item 
+    *ngFor="let item of items"
+    [item]="item" 
+    (deleteItem)="deleteItem($event)"></app-item>
+</div>
